@@ -1,0 +1,7 @@
+Physics=input("Enter Physics marks:")
+Chemistry=input("Enter Chemistry marks")
+Mathematics=input("Enter Mathematics marks")
+Total=int(Physics)+int(Chemistry)+int(Mathematics)
+Per=Total*(100/850)
+print("The Grand Total is:",Total)
+print("The percentage is:",Per)
