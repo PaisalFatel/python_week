@@ -1,0 +1,10 @@
+Product = input("Enter Product Name:")
+Price = input("Enter Product Price:")
+QTY = input("Enter The Quantity Of Product:")
+Amount = int(QTY)*float(Price)
+VAT = Amount*(15/100)
+BILL = Amount + VAT
+print("Your Bill breakdown is the following:")
+print("Your Total Amount is:",Amount)
+print("Your Total VAT is:",VAT)
+print("Your Total Bill is:",BILL)
