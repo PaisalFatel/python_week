@@ -1,4 +1,4 @@
-No=int(input("Enter any number my friend:"))
+No=int(input("Enter any number my friend: "))
 if No>1000:
 	print("B")
 	if No>2000:
